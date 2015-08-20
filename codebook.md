@@ -1,7 +1,7 @@
-Code Book for the data set :tidydata.txt: created in the course project for Coursera's Getting and Cleaning Data Course
-by Karen Lowe (August 19,2015)
+##Code Book for the data set "tidydata.txt" created in the course project for Coursera's Getting and Cleaning Data Course
+###by Karen Lowe (August 19,2015)
 
-## Study Design
+### Study Design
 
 Information about the design of this study can be found on:
 
@@ -30,15 +30,11 @@ This particular file was created from the data downloaded on 8/19/2015 at 8:32AM
 
 In particular, they are the variables that were computed averages (had a mean() in the variable name) or standard deviations (had a std() in the variable name) across one window of time (for one participant engaged in one activity).
 
-## Codebook
-tidydata.txt  has 180 rows of 68 variables.  The 68 variables are as follows:
+### Codebook
+tidydata.txt  has 180 rows of 68 variables.  The 3rd through 68th variables are means of the body measurement for that subject & activity. Each value is continuous in the range of [-1,1]. However, since each was also normalized into the range [-1, 1], none have units.
 
 1. subject: a subject ID (1-30)
 2. activity: a character string identifying the activity (Levels: WALKING WALKING_UPSTAIRS WALKING_DOWNSTAIRS SITTING STANDING LAYING)
-
-Each of the following are the means of the body measurement for that subject & activity. Each value is continuous in the range of [-1,1]. However, since each was also normalized into the range [-1, 1], none of the following variables have units:
-
-
 3. timeBodyAcceleration.mean.x: The mean body acceleration in the x direction    
 4. timeBodyAcceleration.mean.y: The mean body acceleration in the y direction                             
 5. timeBodyAcceleration.mean.z: The mean body acceleration in the z direction           
