@@ -53,7 +53,7 @@ tidydata.txt  has 180 rows of 68 variables.  The 3rd through 68th variables are 
 18. timeBodyAccelerationMagnitude.mean: The mean magnitude of the three-dimensional body acceleration 
 19. timeGravityAccelerationMagnitude.mean: The mean magnitude of the three-dimensional gravity acceleration 
 20. timeBodyAccelerationJerkMagnitude.mean: The mean magnitude of the three-dimensional jerk acceleration
-21.timeBodyGyroscopeMagnitude.mean: The mean magnitude of the three-dimensional angular velocity measured by the gyroscope      
+21.timeBodyGyroscopeMagnitude.mean: The mean magnitude of the three-dimensional angular velocity measured by the gyroscope
 22. timeBodyGyroscopeJerkMagnitude.mean: The mean magnitude of the three-dimensional angular jerk measured by the gyroscope 
 23. freqBodyAcceleration.mean.x: The mean of the Fast Fourier Transform (FFT) applied to the body acceleration in the x direction producing a frequency domain signal          
 24. freqBodyAcceleration.mean.y:  The mean of the frequency domain signal produced by the Fast Fourier Transform (FFT) applied to the body acceleration in the y direction         
